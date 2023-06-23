@@ -1,0 +1,98 @@
+.UpdateProfile{
+    height: 90%;
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    // gap: 10px;
+    // background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    .left-side{
+      
+        // background-color: red;
+        width: 50vh;
+        display: flex;
+        padding-top: 8%;
+        gap: 10px;
+        align-items: center;
+        // justify-content: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .input-user-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .labelImg{
+                width: 80px;
+                height: 80px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                padding: 0px;
+                border-radius: 50%;
+                border: 2px dotted yellow;
+            }
+            .inputImg{
+                display: none;
+            }
+        }
+        h3{
+            font-size: 23px;
+            color: white;
+        }
+    }
+    hr{
+     height: 500px;    
+    }
+    .right-side{
+        form{
+            display: flex;
+            flex-direction: column;
+            // background-color: green;
+            width: 100vh;
+            gap: 20px;
+            align-items: center;
+            height: 100%;
+            padding: 120px 30px 0 30px;
+            
+            input{
+                padding-top: -10px;
+                outline: none;
+                border: none;
+                background-color: rgb(245, 228, 228);
+                padding-left: 30px;
+                color: black;
+                font-size: 17px;
+                height: 50px;
+                width: 100%;
+                border-radius: 15px;
+            }
+            .Update-Profile{
+                background-color: white;
+                color: black;
+                font-size: 20px;
+                width: 250px;
+                padding-left: 0px;
+                // text-align: center;
+            }
+            .Delete-Profile{
+                background-color: rgb(206, 31, 31);
+                color:white;
+                padding-left: 0;
+                height: 50px;
+                border-radius: 20px;
+                border: none;
+                font-size: 20px;
+                outline: none;
+                width: 50vh;
+                
+            }
+        }
+        
+        // background-color: red;
+      
+    }
+}

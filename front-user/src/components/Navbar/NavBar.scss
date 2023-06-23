@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap');
+.NavBar {
+    height: 10vh;
+    background-color:rgb(53, 48, 48);
+    width: 100%;
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+
+        .logo{
+            margin-left: 40px;
+            font-family: 'Signika Negative', sans-serif;
+            margin-top: 15px;
+            color : white;
+            font-size: 40px;
+        }
+        .logo:hover{
+            cursor: pointer;
+        }
+        .right-side{
+            margin-right: 50px;
+            margin-top: 5px;
+            display: flex;
+            padding-right: 140px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            .logout{
+                color: white;
+                p{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center ;
+                    width: 120px;
+                    height: 40px;
+                    border-radius: 50px;
+                    background-color: transparent;
+                    color:white;
+                    font-size: 16px;
+                    border: 1px solid white;
+                }
+            }
+        }
+    }
+}
